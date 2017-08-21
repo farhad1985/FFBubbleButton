@@ -31,9 +31,9 @@ public class FFBubbleButton: UIButton {
         }
     }
 
-    @IBInspectable var highlightedColor: UIColor = .white
-    
-    @IBInspectable var alphaBubble: CGFloat = 0.5
+//    @IBInspectable var highlightedColor: UIColor = .white
+//    
+//    @IBInspectable var alphaBubble: CGFloat = 0.5
     
     override init(frame: CGRect) {
         super.init(frame: frame)
