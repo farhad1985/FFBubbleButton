@@ -78,14 +78,6 @@ public class FFBubbleButton: UIView {
         
     }
     
-//    override public var isHighlighted: Bool {
-//        didSet {
-//            if isHighlighted {
-//                self.backgroundColor = highlightedColor
-//            } else {
-//                self.backgroundColor = backColor
-//            }
-//        }
-//    }
+
     
 }
