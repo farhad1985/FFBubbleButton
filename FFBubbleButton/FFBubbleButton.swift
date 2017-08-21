@@ -32,17 +32,17 @@ public class FFBubbleButton: UIButton {
     }
 
 //    @IBInspectable var highlightedColor: UIColor = .white
-//    
+//
 //    @IBInspectable var alphaBubble: CGFloat = 0.5
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        
-    }
+//    override init(frame: CGRect) {
+//        super.init(frame: frame)
+//
+//    }
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
+//    required init?(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+//    }
     
     private func startAnimation() {
         Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(animation), userInfo: nil, repeats: true)
