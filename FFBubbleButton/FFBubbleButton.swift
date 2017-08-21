@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class FFBubbleButton: UIView {
+public class FFBubbleButton: UIButton {
     
     @IBInspectable var isAnimation: Bool = false {
         didSet {
