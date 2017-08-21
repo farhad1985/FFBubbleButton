@@ -35,12 +35,12 @@ public class FFBubbleButton: UIView {
     
     @IBInspectable var alphaBubble: CGFloat = 0.5
     
-    override public init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -78,14 +78,14 @@ public class FFBubbleButton: UIView {
         
     }
     
-    override var isHighlighted: Bool {
-        didSet {
-            if isHighlighted {
-                self.backgroundColor = highlightedColor
-            } else {
-                self.backgroundColor = backColor
-            }
-        }
-    }
+//    override public var isHighlighted: Bool {
+//        didSet {
+//            if isHighlighted {
+//                self.backgroundColor = highlightedColor
+//            } else {
+//                self.backgroundColor = backColor
+//            }
+//        }
+//    }
     
 }
