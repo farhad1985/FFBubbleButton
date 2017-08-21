@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FFBubbleButton'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'FFBubbleButton is a Custom Button. by : farhad faramarzi'
 
  
