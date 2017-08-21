@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C482EE8F1F4AC10E007FFE89 /* FFBubbleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C482EE8D1F4AC10E007FFE89 /* FFBubbleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C482EE961F4AC11A007FFE89 /* FFBubbleButton.swift in Headers */ = {isa = PBXBuildFile; fileRef = C482EE951F4AC11A007FFE89 /* FFBubbleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C482EE8A1F4AC10E007FFE89 /* FFBubbleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFBubbleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C482EE8D1F4AC10E007FFE89 /* FFBubbleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFBubbleButton.h; sourceTree = "<group>"; };
 		C482EE8E1F4AC10E007FFE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C482EE951F4AC11A007FFE89 /* FFBubbleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFBubbleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				C482EE8D1F4AC10E007FFE89 /* FFBubbleButton.h */,
-				C482EE951F4AC11A007FFE89 /* FFBubbleButton.swift */,
 				C482EE8E1F4AC10E007FFE89 /* Info.plist */,
 			);
 			path = FFBubbleButton;
@@ -63,7 +60,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C482EE8F1F4AC10E007FFE89 /* FFBubbleButton.h in Headers */,
-				C482EE961F4AC11A007FFE89 /* FFBubbleButton.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
